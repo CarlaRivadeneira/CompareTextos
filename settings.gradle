@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT) // Cambiado a PREFER_PROJECT
+    repositories {
+        google()
+        mavenCentral()
+        // Puedes mantener otros repositorios aquí si es necesario
+
+        // Ejemplo de cómo puedes incluir el repositorio de build.gradle
+        includeBuild(uri('file:C:/Users/georg/AndroidStudioProjects/CompareTextos'))
+    }
+}
+
+rootProject.name = "Compare Textos"
+include ':app'

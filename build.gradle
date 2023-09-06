@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.10' // Esta línea es importante
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url uri('file:C:/Users/georg/AndroidStudioProjects/CompareTextos')
+        }
+        google()
+        jcenter()
+    }
+}
